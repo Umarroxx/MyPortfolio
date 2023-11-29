@@ -227,7 +227,7 @@ footer .footer .footer-second ul li a {
         flex-direction: column;
     }
     .leftSection{
-        width: 100% !important;
+        width: 80% !important;
         display: flex;
         flex-direction: column;
         justify-content: center;
