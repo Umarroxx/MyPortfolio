@@ -245,4 +245,7 @@ footer .footer .footer-second ul li a {
         flex-direction: column;
         align-items: center;
     }
-}
+    body{
+        min-width: fit-content;
+    }
+} 
