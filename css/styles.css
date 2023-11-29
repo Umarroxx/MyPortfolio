@@ -7,7 +7,6 @@ body {
     background-color: rgb(0, 0, 33);
     color: white;
     font-family: 'Poppins', sans-serif;
-    
 }
 
 nav {
@@ -181,4 +180,71 @@ footer .footer .footer-second ul li a {
     text-decoration: none;
     color: white;
     cursor: pointer;
+}
+
+@media screen and (max-width: 1250px) {
+    body{
+      /* background-color: red; */
+    }
+    .firstSection{
+      flex-direction: column-reverse;
+    }
+    .box{
+        flex-direction: column;
+
+    }
+    .secondSection .vertical{
+        height: unset;
+    }
+    footer{
+        display: none;
+    }
+    .vertical-title {
+        position: relative;
+        width: 201px;
+        left: 100px;
+        top: 6px;
+        font-size: 17px;
+        font-weight: 550;
+        color: rgb(171, 89, 248);
+    }
+    .image-top {
+        width: 70px;
+        position: relative;
+        top: 55px;
+        left: -34px;
+    }
+    .secondSection {
+        max-width: 80vw;
+        margin: auto;
+        height: 110vh;
+    }
+    .secondSection .box {
+        background: white;
+        width: 50vw;
+        height: 2px;
+        margin: 85px 0;
+        display: flex;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .leftSection{
+        width: 100% !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .rightSection {
+        width: 80% !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .secondSection{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
