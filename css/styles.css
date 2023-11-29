@@ -183,9 +183,6 @@ footer .footer .footer-second ul li a {
 }
 
 @media screen and (max-width: 1250px) {
-    body{
-      /* background-color: red; */
-    }
     .firstSection{
       flex-direction: column-reverse;
     }
@@ -225,9 +222,6 @@ footer .footer .footer-second ul li a {
         height: 2px;
         margin: 85px 0;
         display: flex;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
     }
     nav{
         flex-direction: column;
@@ -240,12 +234,14 @@ footer .footer .footer-second ul li a {
         align-items: center;
     }
     .rightSection {
-        width: 80% !important;
+        width: 685px !important;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    body{
-        min-width: fit-content;
+    .secondSection{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
-} 
+}
