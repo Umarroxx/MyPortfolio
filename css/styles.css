@@ -182,7 +182,7 @@ footer .footer .footer-second ul li a {
     cursor: pointer;
 }
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1300px) {
     .firstSection{
       flex-direction: column-reverse;
     }
@@ -243,5 +243,26 @@ footer .footer .footer-second ul li a {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+    @media screen and (max-width: 400px) {
+        nav ul li {
+            list-style: none;
+            margin: 0 7px;
+        }
+        .left{
+            font-size: 1.3rem;
+        }
+        .rightSection{
+            width: 365px !important;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .leftSection {
+            font-size: 1.8rem;
+        }
+        .leftSection .buttons {
+            padding: 10px;
+        }
     }
 }
